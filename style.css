@@ -1,0 +1,44 @@
+/*Ayuda en: https://cloudinary.com/guides/front-end-development/6-ways-to-stretch-a-background-image-with-css*/
+
+body {
+    background-color: #ffe4e4;
+    display:grid;
+    justify-content: center;
+    align-items: center;
+    margin:50px auto;
+    background-size: 250vh 70vw;
+    background-repeat: no-repeat;
+    background-position: center;
+}
+
+.title {
+    color: rgb(255, 190, 190);
+    background-color: #3a0000;
+    border: 2px solid rgb(255, 190, 190);
+    font-size: 32px;
+    font-weight: bold;
+    margin-bottom: 20px;
+    align-items: center;
+}
+
+/*Inspirado en: https://www.w3schools.com/css/css3_buttons.asp*/
+.button {
+    background-color: #ff2f2f;
+    border: none;
+    color: rgb(255, 255, 255);
+    padding: 12px 22px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+    border-radius:16px;
+    border: 2px solid rgb(255, 112, 112);
+}
+
+.button:hover {
+    background-color: #ff0000;
+}
+
+.button:active {
+    background-color: #6d0000;
+}
